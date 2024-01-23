@@ -1,0 +1,54 @@
+.panel {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.panel input {
+    width: 100px;
+    outline: none;
+    padding: 5px 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.panel button {
+    padding: 0px 10px;
+    border: none;
+    background-color: rgb(2, 2, 2);
+    color: white;
+}
+
+.fila {
+    display: flex;
+}
+
+.columna {
+    width: 42px;
+    height: 42px;
+    border: 1px solid rgb(1, 1, 1);
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.camino {
+    background-color: gray;
+}
+
+.player {
+    background-image: url('https://ssb.wiki.gallery/images/a/a0/Pikachu_SSB4.png');
+    background-size: cover;
+}
